@@ -109,12 +109,10 @@ jsonschema-specifications==2025.4.1
 kiwisolver==1.4.9
 kubernetes==33.1.0
 langchain==0.3.30
-langchain-classic==1.0.8
 langchain-community==0.4.2
 langchain-core==0.3.86
 langchain-experimental==0.4.2
 langchain-groq==0.2.5
-langchain-ollama==1.1.0
 langchain-protocol==0.0.17
 langchain-text-splitters==0.3.11
 langgraph==0.2.76
