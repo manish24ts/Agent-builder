@@ -1,42 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap");
-
 :root {
-  --bg: #14151a;
-  --surface: #1c1e26;
-  --surface-2: #21232d;
-  --surface-hover: #262936;
-  --border: #2a2d3a;
-  --text: #ecedf1;
-  --text-dim: #9195a6;
-  --text-faint: #5c6070;
-  --accent: #6e56cf;
-  --accent-hover: #7c68da;
-  --accent-dim: #6e56cf22;
+  --bg: #0d0240;
+  --surface: #190482;
+  --surface-2: #1f0a94;
+  --surface-hover: #2a13a8;
+  --border: #35209e;
+  --text: #eef2ff;
+  --text-dim: #c2d9ff;
+  --text-faint: #8e8ffa;
+  --accent: #7752fe;
+  --accent-hover: #8e8ffa;
+  --accent-dim: #7752fe22;
   --danger: #e5484d;
   --success: #4ade80;
-
   --font-ui: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 }
-
 * {
   box-sizing: border-box;
 }
-
 html,
 body,
 #root {
   height: 100%;
   margin: 0;
 }
-
 body {
   font-family: var(--font-ui);
   background: var(--bg);
   color: var(--text);
   -webkit-font-smoothing: antialiased;
 }
-
 button,
 input,
 textarea,
@@ -44,11 +38,9 @@ select {
   font-family: inherit;
   color: inherit;
 }
-
 button {
   cursor: pointer;
 }
-
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -60,12 +52,10 @@ button {
 ::-webkit-scrollbar-track {
   background: transparent;
 }
-
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
-
 .full-screen-center {
   height: 100%;
   display: flex;
