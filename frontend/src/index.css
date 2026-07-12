@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap");
 :root {
-  --bg: #0d0240;
-  --surface: #190482;
-  --surface-2: #1f0a94;
-  --surface-hover: #2a13a8;
-  --border: #35209e;
-  --text: #eef2ff;
-  --text-dim: #c2d9ff;
-  --text-faint: #8e8ffa;
-  --accent: #7752fe;
-  --accent-hover: #8e8ffa;
-  --accent-dim: #7752fe22;
+  --bg: #222831;
+  --surface: #262c36;
+  --surface-2: #393e46;
+  --surface-hover: #454b55;
+  --border: #3f4550;
+  --text: #eeeeee;
+  --text-dim: #a4a9b3;
+  --text-faint: #6b7078;
+  --accent: #00adb5;
+  --accent-hover: #1ec5cd;
+  --accent-dim: #00adb522;
   --danger: #e5484d;
   --success: #4ade80;
   --font-ui: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
